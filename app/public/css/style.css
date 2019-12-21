@@ -1,0 +1,137 @@
+    .row {
+        background-color: #ddd;
+        color: #333;
+        height: 500px;
+        margin-top: 50px;
+        padding: 25px 50px 25px 50px;
+    }
+
+    .row h1 {
+        text-align: center;
+    }
+
+    .cercle {
+        background: #e5a52a;
+        border-radius: 50%;
+        width: 170px;
+        height: 170px;
+        padding: 25px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        box-shadow: -1rem 0 3rem #000;
+    }
+
+    footer .row {
+        background: red;
+    }
+
+    /*card*/
+    body {
+        background-color: #c9c9c9;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .cards {
+        background: #ddd;
+        height: 600px;
+        width: 1500px;
+        top: 60px;
+        margin-top: 10px;
+        left: calc(50% - 300px);
+        display: flex;
+    }
+
+
+    .card {
+        display: flex;
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+
+        background-color: #FFF;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        /*margin-left: -50px;*/
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+        justify-content: center;
+    }
+
+    .card:not(:first-child) {
+        margin-left: -50px;
+    }
+
+    .card:first-child {
+        margin-left: 150px;
+    }
+
+    .card:last-child {
+        margin-right: 150px;
+    }
+
+    .card:hover {
+        transform: translateY(-20px);
+        transition: 0.4s ease-out;
+    }
+
+    .card:hover~.card {
+        position: relative;
+        left: 50px;
+        transition: 0.4s ease-out;
+    }
+
+    .title {
+        color: #7f67ab;
+        font-weight: 50;
+        left: 20px;
+        top: 15px;
+    }
+
+    svg {
+        fill: #17141d;
+        stroke-width: 2px;
+    }
+
+    .a {
+        display: inline;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*button*/
+    .btn-jaune {
+        background: #e5a52a;
+
+    }
+
+    .btn-orange {
+        background: #f9593a;
+
+    }
+
+    .cardsFormation {
+
+        background: #ddd;
+        margin-top: 40px;
+
+    }
+
+    span.h1 {
+        text-align: center;
+    }
+    .principal{
+        background:url(./img/im2.png);
+        height:350px;
+        text-align:center;
+    }
+    .slogan{
+         height:330px;
+         
+    }
+    .slogan img{
+        margin-top:-20px;
+        width: 100%;
+    }
